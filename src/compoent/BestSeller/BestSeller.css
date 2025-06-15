@@ -1,0 +1,45 @@
+.bestseller{
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.bestseller-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.bestsellerss{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+width: 100%;
+text-align: center;
+gap: 7px;
+
+margin-top: 40px;
+
+
+}
+
+
+
+@media (max-width:750px) {
+
+    .bestsellerss{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        width: 100%;
+    }
+    
+        
+    }
+
+
+@media (max-width:450px) {
+    .bestsellerss{
+        display: grid;
+        grid-template-columns: 1fr ;
+        width: 100%;
+    }
+}

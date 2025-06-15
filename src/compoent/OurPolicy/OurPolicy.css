@@ -1,0 +1,46 @@
+
+.ourpolicy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 70px;
+    
+    margin-top: 80px;
+    
+    }
+    .ourpolicy .ee{
+        text-align: center;
+        
+    }
+    .ourpolicy .ee h4{
+        font-weight: 700;
+    }
+    
+    
+    @media (max-width:750px) {
+    
+        .ourpolicy{
+       
+        
+            width: 100%;
+            flex-direction: column;
+                align-items: center;
+                
+        }
+    }
+    
+    @media (max-width:450px) {
+        
+    
+        .ourpolicy {
+         
+            width: 100%;
+            flex-direction: column;
+                align-items: center;
+                
+            }
+    
+    }
+    
+    

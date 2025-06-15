@@ -1,0 +1,39 @@
+.hero{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+}
+.hero .right{
+width: 50%;
+text-align: center;
+}
+.hero .left{
+    width: 50%;
+}
+.hero .left img{
+    width: 100%;
+}
+.right-pp{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+}
+.right-ppp{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+    
+}
+@media (max-width:450px) {
+    .hero{
+flex-direction: column;
+width: 100%;
+align-items: center;
+    }
+}
+
+

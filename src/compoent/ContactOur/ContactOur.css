@@ -1,0 +1,35 @@
+.contactour{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.cont-right button{
+
+width: 200px;
+height: 50px;
+color: black;
+background: white;
+border: 1px solid thistle;
+border-radius: 10px;
+margin: 20px 0px;
+}
+
+.cont-right button:hover{
+background: thistle;
+
+
+}
+
+@media (max-width:450px) {
+    
+    .contactour{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+
+    }

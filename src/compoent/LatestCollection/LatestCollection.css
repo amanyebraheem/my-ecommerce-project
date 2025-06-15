@@ -1,0 +1,37 @@
+
+.lates{
+    width: 100%;
+}
+
+
+
+.latestcollection{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   justify-content: center;
+    align-items: center;
+gap: 7px;
+
+    }
+    @media (max-width:750px) {
+
+        .latestcollection{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            width: 100%;
+        }
+        
+            
+        }
+    
+    
+    @media (max-width:450px) {
+        .latestcollection{
+            display: grid;
+            grid-template-columns: 1fr ;
+            width: 100%;
+        }
+    }
+    
+    
